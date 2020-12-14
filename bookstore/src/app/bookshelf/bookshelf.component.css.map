@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAA;EACD,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,UAAU,CAAA;EACN,OAAO,EAAC,IAAI;EACZ,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,CAAC;EACT,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CAEtB;;AAED,AAAA,IAAI,CAAA;EACA,MAAM,EAAC,KACX;CAAC",
+    "sources": [
+        "bookshelf.component.scss"
+    ],
+    "names": [],
+    "file": "bookshelf.component.css"
+}
