@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=social.component.css.map */
+.nav-link {
+  background-color: blue;
+  color: white;
+}
+
+.nav-link:hover {
+  background-color: #000099;
+}
+/*# sourceMappingURL=social.component.css.map */
