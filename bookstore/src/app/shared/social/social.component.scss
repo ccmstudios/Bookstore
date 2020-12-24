@@ -1,8 +1,8 @@
 .nav-link{
-    background-color: blue;
+    background-color: black;
     color: white;
 }
 
 .nav-link:hover{
-    background-color: darken(blue, 20%);
+    background-color: lighten(black, 5%);
 }
