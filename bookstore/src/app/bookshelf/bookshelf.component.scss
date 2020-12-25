@@ -1,3 +1,4 @@
+
 :root{
     font-size: 16px;
 }
@@ -7,19 +8,17 @@ main{
 }
 
 section{
-    background-color:blue;
+    background:linear-gradient(45deg, black, crimson);
 }
 .col{
-    background-color: black;
+    background:linear-gradient(45deg, black, navy);
 }
 
 .album{
-    background-color:yellow;
-}
+    background: black}
 
 .container{
-    background-color: purple;
-}
+    background:linear-gradient(45deg, black, darkblue, navy);}
 .btn-group{
     display:flex;
     margin: auto;
@@ -30,5 +29,10 @@ section{
 }
 
 .col{
-    height:44rem
+    height:50rem;
+    padding:20px;
+}
+
+p{
+    font-size: small;
 }

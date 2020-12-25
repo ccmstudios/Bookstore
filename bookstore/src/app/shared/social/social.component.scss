@@ -1,8 +1,9 @@
 .nav-link{
-    background-color: black;
+    background: linear-gradient(90deg, navy,black);
     color: white;
 }
 
 .nav-link:hover{
-    background-color: lighten(black, 5%);
+    background: darken(navy, 10%);
+
 }
