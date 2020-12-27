@@ -1,1 +1,45 @@
-<p>login works!</p>
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Welcome to the Bookstore</h1>
+        <h3>Please Log in to Continue</h3>
+        <div class="card mb-3 bg-dark text-white shadow-sm">
+          <img src="https://urfavoriteauthor.square.site/uploads/1/2/9/9/129973999/s541477258908809715_p38_i1_w1080.jpeg" class="card-img-top" alt="..."/>
+          <div class="card-body">
+            <h5 class="card-title">Sign Up</h5>
+            <label>Email</label>
+            <br>
+            <input type="text">
+            <br>
+            <label>Password</label>
+            <br>
+
+            <input type="text">
+            <br>
+
+            <button (click)='onSignup(emailSignup.value, passwordSignup.value)'>Sign Up</button>
+            <br>
+            <h5 class="card-title">Sign In</h5>
+
+            <label>Email</label>
+            <br>
+
+            <input type="text">
+            <br>
+
+            <label>Password</label>
+            <br>
+
+            <input type="text">
+            <br>
+
+            <button (click)='onSignin(emailSignup.value, passwordSignup.value)'>Sign In</button>
+            <br>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        
+    </div>
+    </div>
+</section>
+<app-bookshelf *ngIf= 'isSignedin' (isLogout)='handleLogout()'></app-bookshelf>

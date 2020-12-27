@@ -1,6 +1,7 @@
 <app-navbar></app-navbar>
 
-<app-bookshelf></app-bookshelf>
+<app-bookshelf *ngIf = "isSignedin"></app-bookshelf>
+<app-login *ngIf ="!isSignedin"></app-login>
 <app-social></app-social>
 
 <router-outlet></router-outlet>
